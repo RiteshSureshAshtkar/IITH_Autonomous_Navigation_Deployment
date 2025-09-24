@@ -1,0 +1,1 @@
+/home/davinci/ydlidar/src/ydlidar_ros2_driver/startup/initenv.sh

@@ -1,0 +1,9 @@
+Architecture: amd64
+Description: YDLIDAR SDK.
+Maintainer: Tony Yang
+Package: ydlidar_sdk-1.2.15
+Priority: optional
+Section: devel
+Version: 1.2.15
+Installed-Size: 21956
+

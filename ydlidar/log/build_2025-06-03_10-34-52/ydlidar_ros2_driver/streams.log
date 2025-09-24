@@ -1,0 +1,78 @@
+[0.014s] Invoking command in '/home/davinci/ydlidar/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/turtlebot_ws/install/turtlebot3_teleop:/home/davinci/turtlebot_ws/install/turtlebot3_example:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/davinci/ydlidar/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davinci/ydlidar/install/ydlidar_ros2_driver
+[0.029s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.362s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.370s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.416s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.430s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.442s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.456s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.519s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.521s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.589s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.654s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.711s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.741s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[0.765s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.886s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.889s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.889s] -- Configured cppcheck include dirs: /home/davinci/ydlidar/src/ydlidar_ros2_driver/src
+[0.889s] -- Configured cppcheck exclude dirs and/or files: 
+[0.892s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.892s] -- Configured cpplint exclude dirs and/or files: 
+[0.893s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.893s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.895s] -- Added test 'lint_cmake' to check CMake code style
+[0.895s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.900s] -- Added test 'uncrustify' to check C / C++ code style
+[0.900s] -- Configured uncrustify additional arguments: 
+[0.900s] -- Added test 'xmllint' to check XML markup files
+[0.902s] -- Configuring done (0.9s)
+[0.933s] -- Generating done (0.0s)
+[0.940s] -- Build files have been written to: /home/davinci/ydlidar/build/ydlidar_ros2_driver
+[0.949s] Invoked command in '/home/davinci/ydlidar/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/turtlebot_ws/install/turtlebot3_teleop:/home/davinci/turtlebot_ws/install/turtlebot3_example:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/davinci/ydlidar/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davinci/ydlidar/install/ydlidar_ros2_driver
+[0.951s] Invoking command in '/home/davinci/ydlidar/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/turtlebot_ws/install/turtlebot3_teleop:/home/davinci/turtlebot_ws/install/turtlebot3_example:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/davinci/ydlidar/build/ydlidar_ros2_driver -- -j8 -l8
+[1.050s] [ 50%] [32m[1mLinking CXX executable ydlidar_ros2_driver_node[0m
+[1.051s] [ 50%] [32m[1mLinking CXX executable ydlidar_ros2_driver_client[0m
+[1.386s] [ 75%] Built target ydlidar_ros2_driver_node
+[1.407s] [100%] Built target ydlidar_ros2_driver_client
+[1.422s] Invoked command in '/home/davinci/ydlidar/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/turtlebot_ws/install/turtlebot3_teleop:/home/davinci/turtlebot_ws/install/turtlebot3_example:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/davinci/ydlidar/build/ydlidar_ros2_driver -- -j8 -l8
+[1.433s] Invoking command in '/home/davinci/ydlidar/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/turtlebot_ws/install/turtlebot3_teleop:/home/davinci/turtlebot_ws/install/turtlebot3_example:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/davinci/ydlidar/build/ydlidar_ros2_driver
+[1.447s] -- Install configuration: ""
+[1.448s] -- Execute custom install script
+[1.448s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[1.467s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[1.485s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[1.502s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[1.520s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[1.537s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[1.553s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[1.569s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[1.583s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml
+[1.597s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS5.yaml
+[1.614s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml
+[1.630s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[1.641s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml
+[1.650s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[1.659s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X3.yaml
+[1.668s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[1.678s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[1.690s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/sdm15.yaml
+[1.707s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[1.724s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[1.741s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[1.759s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[1.774s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[1.788s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[1.805s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[1.824s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[1.841s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[1.856s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[1.873s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[1.889s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[1.905s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[1.923s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[1.940s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[1.957s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[1.974s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[1.989s] -- Symlinking: /home/davinci/ydlidar/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[2.008s] Invoked command in '/home/davinci/ydlidar/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/turtlebot_ws/install/turtlebot3_teleop:/home/davinci/turtlebot_ws/install/turtlebot3_example:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/davinci/ydlidar/build/ydlidar_ros2_driver
