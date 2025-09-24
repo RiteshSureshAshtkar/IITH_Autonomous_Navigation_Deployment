@@ -1,2 +1,0 @@
-[console_scripts]
-serial_odom_node = serial_odom.serial_odom_node:main

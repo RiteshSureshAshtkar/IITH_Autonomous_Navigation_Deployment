@@ -1,7 +1,0 @@
-Metadata-Version: 2.1
-Name: serial-odom
-Version: 0.1.0
-Summary: Reads odometry data from serial and publishes as a ROS 2 Odometry message.
-Maintainer: ksvsd
-Maintainer-email: ksvsd@example.com
-License: MIT

@@ -1,6 +1,0 @@
-source;share/serial_odom/hook/pythonpath.ps1
-source;share/serial_odom/hook/pythonpath.dsv
-source;share/serial_odom/hook/pythonpath.sh
-source;share/serial_odom/hook/ament_prefix_path.ps1
-source;share/serial_odom/hook/ament_prefix_path.dsv
-source;share/serial_odom/hook/ament_prefix_path.sh
