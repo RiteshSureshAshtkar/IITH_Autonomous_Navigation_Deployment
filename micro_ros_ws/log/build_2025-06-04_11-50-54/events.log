@@ -1,0 +1,1360 @@
+[0.000000] (-) TimerEvent: {}
+[0.000172] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict()}
+[0.000408] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[0.010666] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[0.011142] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '/home/davinci/micro_ros_ws/src/micro-ROS-Agent/micro_ros_agent', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/davinci/micro_ros_ws/install/micro_ros_agent'], 'cwd': '/home/davinci/micro_ros_ws/build/micro_ros_agent', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'davinci', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/davinci', 'OLDPWD': '/home/davinci/micro_ros_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2274', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/davinci/ros3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'davinci', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'davinci', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/davinci/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/davinci:@/tmp/.ICE-unix/2240,unix/davinci:/tmp/.ICE-unix/2240', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ad0ff6c4_8525_44d2_b1e1_8d6cec2e1543', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C92762', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/davinci/ros3_ws/install/ydlidar_ros2_driver:/home/davinci/ros3_ws/install/my_py_pkg:/home/davinci/ros3_ws/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/davinci/micro_ros_ws/build/micro_ros_agent', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/davinci/ros3_ws/build/my_py_pkg:/home/davinci/ros3_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/davinci/ros3_ws/install/ydlidar_ros2_driver:/home/davinci/ros3_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.100009] (-) TimerEvent: {}
+[0.131792] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.145306] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200270] (-) TimerEvent: {}
+[0.259243] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.265551] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.265894] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.266160] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.300473] (-) TimerEvent: {}
+[0.355812] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.365973] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400565] (-) TimerEvent: {}
+[0.445616] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.452184] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.452298] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.452711] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.491227] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done (0.5s)\n'}
+[0.493107] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.493240] (micro_ros_agent) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[0.493313] (micro_ros_agent) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[0.493362] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[0.493416] (micro_ros_agent) StderrLine: {'line': b'    AMENT_CMAKE_SYMLINK_INSTALL\n'}
+[0.493461] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[0.493504] (micro_ros_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[0.494260] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/davinci/micro_ros_ws/build/micro_ros_agent\n'}
+[0.497973] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[0.498283] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[0.498299] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/davinci/micro_ros_ws/build/micro_ros_agent', '--', '-j8', '-l8'], 'cwd': '/home/davinci/micro_ros_ws/build/micro_ros_agent', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'davinci', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/davinci', 'OLDPWD': '/home/davinci/micro_ros_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2274', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/davinci/ros3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'davinci', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'davinci', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/davinci/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/davinci:@/tmp/.ICE-unix/2240,unix/davinci:/tmp/.ICE-unix/2240', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ad0ff6c4_8525_44d2_b1e1_8d6cec2e1543', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C92762', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/davinci/ros3_ws/install/ydlidar_ros2_driver:/home/davinci/ros3_ws/install/my_py_pkg:/home/davinci/ros3_ws/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/davinci/micro_ros_ws/build/micro_ros_agent', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/davinci/ros3_ws/build/my_py_pkg:/home/davinci/ros3_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/davinci/ros3_ws/install/ydlidar_ros2_driver:/home/davinci/ros3_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.500621] (-) TimerEvent: {}
+[0.541227] (micro_ros_agent) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mCreating directories for 'xrceagent'\x1b[0m\n"}
+[0.573950] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mPerforming download step (git clone) for 'xrceagent'\x1b[0m\n"}
+[0.591895] (micro_ros_agent) StderrLine: {'line': b"Cloning into 'xrceagent'...\n"}
+[0.600833] (-) TimerEvent: {}
+[0.701249] (-) TimerEvent: {}
+[0.801640] (-) TimerEvent: {}
+[0.902180] (-) TimerEvent: {}
+[1.002618] (-) TimerEvent: {}
+[1.103039] (-) TimerEvent: {}
+[1.203489] (-) TimerEvent: {}
+[1.304003] (-) TimerEvent: {}
+[1.404552] (-) TimerEvent: {}
+[1.505065] (-) TimerEvent: {}
+[1.605598] (-) TimerEvent: {}
+[1.706149] (-) TimerEvent: {}
+[1.806724] (-) TimerEvent: {}
+[1.907239] (-) TimerEvent: {}
+[2.007817] (-) TimerEvent: {}
+[2.108328] (-) TimerEvent: {}
+[2.208846] (-) TimerEvent: {}
+[2.309234] (-) TimerEvent: {}
+[2.409575] (-) TimerEvent: {}
+[2.510038] (-) TimerEvent: {}
+[2.610589] (-) TimerEvent: {}
+[2.711023] (-) TimerEvent: {}
+[2.811447] (-) TimerEvent: {}
+[2.911984] (-) TimerEvent: {}
+[3.012494] (-) TimerEvent: {}
+[3.112903] (-) TimerEvent: {}
+[3.213449] (-) TimerEvent: {}
+[3.313968] (-) TimerEvent: {}
+[3.414469] (-) TimerEvent: {}
+[3.514990] (-) TimerEvent: {}
+[3.567265] (micro_ros_agent) StderrLine: {'line': b'HEAD is now at 7362281 Release v2.4.3\n'}
+[3.607002] (micro_ros_agent) StdoutLine: {'line': b"[ 18%] \x1b[34m\x1b[1mPerforming update step for 'xrceagent'\x1b[0m\n"}
+[3.615101] (-) TimerEvent: {}
+[3.628609] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo patch step for 'xrceagent'\x1b[0m\n"}
+[3.647690] (micro_ros_agent) StdoutLine: {'line': b"[ 31%] \x1b[34m\x1b[1mPerforming configure step for 'xrceagent'\x1b[0m\n"}
+[3.655053] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake\n'}
+[3.701757] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[3.715239] (-) TimerEvent: {}
+[3.715606] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.797439] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.805987] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.806083] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.806360] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.815417] (-) TimerEvent: {}
+[3.846553] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.856274] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.915573] (-) TimerEvent: {}
+[3.949926] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.956838] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.956969] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.957244] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.990518] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done (0.3s)\n'}
+[3.993231] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.993882] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[4.011517] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mPerforming build step for 'xrceagent'\x1b[0m\n"}
+[4.015671] (-) TimerEvent: {}
+[4.048521] (micro_ros_agent) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mCreating directories for 'spdlog'\x1b[0m\n"}
+[4.069572] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mPerforming download step (git clone) for 'spdlog'\x1b[0m\n"}
+[4.086066] (micro_ros_agent) StderrLine: {'line': b"Cloning into 'spdlog'...\n"}
+[4.115784] (-) TimerEvent: {}
+[4.216114] (-) TimerEvent: {}
+[4.316355] (-) TimerEvent: {}
+[4.416755] (-) TimerEvent: {}
+[4.517060] (-) TimerEvent: {}
+[4.617473] (-) TimerEvent: {}
+[4.718039] (-) TimerEvent: {}
+[4.818576] (-) TimerEvent: {}
+[4.919117] (-) TimerEvent: {}
+[5.019675] (-) TimerEvent: {}
+[5.120248] (-) TimerEvent: {}
+[5.220710] (-) TimerEvent: {}
+[5.321116] (-) TimerEvent: {}
+[5.421575] (-) TimerEvent: {}
+[5.521996] (-) TimerEvent: {}
+[5.622430] (-) TimerEvent: {}
+[5.722924] (-) TimerEvent: {}
+[5.823456] (-) TimerEvent: {}
+[5.923936] (-) TimerEvent: {}
+[6.024470] (-) TimerEvent: {}
+[6.124876] (-) TimerEvent: {}
+[6.225309] (-) TimerEvent: {}
+[6.325867] (-) TimerEvent: {}
+[6.426294] (-) TimerEvent: {}
+[6.526877] (-) TimerEvent: {}
+[6.627275] (-) TimerEvent: {}
+[6.727847] (-) TimerEvent: {}
+[6.828407] (-) TimerEvent: {}
+[6.928898] (-) TimerEvent: {}
+[7.029340] (-) TimerEvent: {}
+[7.129784] (-) TimerEvent: {}
+[7.230211] (-) TimerEvent: {}
+[7.330643] (-) TimerEvent: {}
+[7.431046] (-) TimerEvent: {}
+[7.531455] (-) TimerEvent: {}
+[7.631844] (-) TimerEvent: {}
+[7.732426] (-) TimerEvent: {}
+[7.832939] (-) TimerEvent: {}
+[7.933453] (-) TimerEvent: {}
+[8.033968] (-) TimerEvent: {}
+[8.134491] (-) TimerEvent: {}
+[8.235009] (-) TimerEvent: {}
+[8.335368] (-) TimerEvent: {}
+[8.435707] (-) TimerEvent: {}
+[8.536105] (-) TimerEvent: {}
+[8.636570] (-) TimerEvent: {}
+[8.737098] (-) TimerEvent: {}
+[8.837610] (-) TimerEvent: {}
+[8.938078] (-) TimerEvent: {}
+[9.038594] (-) TimerEvent: {}
+[9.139108] (-) TimerEvent: {}
+[9.239647] (-) TimerEvent: {}
+[9.340126] (-) TimerEvent: {}
+[9.440640] (-) TimerEvent: {}
+[9.541037] (-) TimerEvent: {}
+[9.641487] (-) TimerEvent: {}
+[9.742002] (-) TimerEvent: {}
+[9.842492] (-) TimerEvent: {}
+[9.943032] (-) TimerEvent: {}
+[10.043461] (-) TimerEvent: {}
+[10.143847] (-) TimerEvent: {}
+[10.244212] (-) TimerEvent: {}
+[10.344588] (-) TimerEvent: {}
+[10.445006] (-) TimerEvent: {}
+[10.545269] (-) TimerEvent: {}
+[10.645688] (-) TimerEvent: {}
+[10.746088] (-) TimerEvent: {}
+[10.846480] (-) TimerEvent: {}
+[10.946965] (-) TimerEvent: {}
+[11.047372] (-) TimerEvent: {}
+[11.147748] (-) TimerEvent: {}
+[11.248029] (-) TimerEvent: {}
+[11.348406] (-) TimerEvent: {}
+[11.448861] (-) TimerEvent: {}
+[11.549411] (-) TimerEvent: {}
+[11.649918] (-) TimerEvent: {}
+[11.750473] (-) TimerEvent: {}
+[11.850913] (-) TimerEvent: {}
+[11.951283] (-) TimerEvent: {}
+[12.051666] (-) TimerEvent: {}
+[12.152163] (-) TimerEvent: {}
+[12.252591] (-) TimerEvent: {}
+[12.353064] (-) TimerEvent: {}
+[12.453624] (-) TimerEvent: {}
+[12.554132] (-) TimerEvent: {}
+[12.654577] (-) TimerEvent: {}
+[12.755002] (-) TimerEvent: {}
+[12.855411] (-) TimerEvent: {}
+[12.955785] (-) TimerEvent: {}
+[13.056179] (-) TimerEvent: {}
+[13.156551] (-) TimerEvent: {}
+[13.256914] (-) TimerEvent: {}
+[13.357305] (-) TimerEvent: {}
+[13.457779] (-) TimerEvent: {}
+[13.558249] (-) TimerEvent: {}
+[13.658655] (-) TimerEvent: {}
+[13.759202] (-) TimerEvent: {}
+[13.859612] (-) TimerEvent: {}
+[13.960225] (-) TimerEvent: {}
+[14.060762] (-) TimerEvent: {}
+[14.161232] (-) TimerEvent: {}
+[14.261619] (-) TimerEvent: {}
+[14.362003] (-) TimerEvent: {}
+[14.462395] (-) TimerEvent: {}
+[14.562769] (-) TimerEvent: {}
+[14.663167] (-) TimerEvent: {}
+[14.763614] (-) TimerEvent: {}
+[14.864005] (-) TimerEvent: {}
+[14.964425] (-) TimerEvent: {}
+[15.064804] (-) TimerEvent: {}
+[15.165187] (-) TimerEvent: {}
+[15.265616] (-) TimerEvent: {}
+[15.366081] (-) TimerEvent: {}
+[15.466585] (-) TimerEvent: {}
+[15.566970] (-) TimerEvent: {}
+[15.667467] (-) TimerEvent: {}
+[15.767947] (-) TimerEvent: {}
+[15.868479] (-) TimerEvent: {}
+[15.968875] (-) TimerEvent: {}
+[16.069276] (-) TimerEvent: {}
+[16.169848] (-) TimerEvent: {}
+[16.270288] (-) TimerEvent: {}
+[16.370681] (-) TimerEvent: {}
+[16.471234] (-) TimerEvent: {}
+[16.571822] (-) TimerEvent: {}
+[16.672324] (-) TimerEvent: {}
+[16.772839] (-) TimerEvent: {}
+[16.873359] (-) TimerEvent: {}
+[16.973920] (-) TimerEvent: {}
+[17.074463] (-) TimerEvent: {}
+[17.174980] (-) TimerEvent: {}
+[17.275403] (-) TimerEvent: {}
+[17.375796] (-) TimerEvent: {}
+[17.476219] (-) TimerEvent: {}
+[17.576804] (-) TimerEvent: {}
+[17.677226] (-) TimerEvent: {}
+[17.777755] (-) TimerEvent: {}
+[17.878293] (-) TimerEvent: {}
+[17.978694] (-) TimerEvent: {}
+[18.079111] (-) TimerEvent: {}
+[18.179494] (-) TimerEvent: {}
+[18.279866] (-) TimerEvent: {}
+[18.380271] (-) TimerEvent: {}
+[18.480659] (-) TimerEvent: {}
+[18.581168] (-) TimerEvent: {}
+[18.681715] (-) TimerEvent: {}
+[18.782241] (-) TimerEvent: {}
+[18.882788] (-) TimerEvent: {}
+[18.983320] (-) TimerEvent: {}
+[19.083849] (-) TimerEvent: {}
+[19.184247] (-) TimerEvent: {}
+[19.284751] (-) TimerEvent: {}
+[19.385184] (-) TimerEvent: {}
+[19.485535] (-) TimerEvent: {}
+[19.585984] (-) TimerEvent: {}
+[19.686404] (-) TimerEvent: {}
+[19.786895] (-) TimerEvent: {}
+[19.887424] (-) TimerEvent: {}
+[19.987944] (-) TimerEvent: {}
+[20.088444] (-) TimerEvent: {}
+[20.188944] (-) TimerEvent: {}
+[20.289474] (-) TimerEvent: {}
+[20.389887] (-) TimerEvent: {}
+[20.490421] (-) TimerEvent: {}
+[20.590819] (-) TimerEvent: {}
+[20.691248] (-) TimerEvent: {}
+[20.791670] (-) TimerEvent: {}
+[20.892044] (-) TimerEvent: {}
+[20.992503] (-) TimerEvent: {}
+[21.092865] (-) TimerEvent: {}
+[21.193235] (-) TimerEvent: {}
+[21.293737] (-) TimerEvent: {}
+[21.394075] (-) TimerEvent: {}
+[21.494593] (-) TimerEvent: {}
+[21.595140] (-) TimerEvent: {}
+[21.695561] (-) TimerEvent: {}
+[21.796122] (-) TimerEvent: {}
+[21.896493] (-) TimerEvent: {}
+[21.997045] (-) TimerEvent: {}
+[22.097460] (-) TimerEvent: {}
+[22.197859] (-) TimerEvent: {}
+[22.298594] (-) TimerEvent: {}
+[22.399120] (-) TimerEvent: {}
+[22.499484] (-) TimerEvent: {}
+[22.600058] (-) TimerEvent: {}
+[22.700452] (-) TimerEvent: {}
+[22.800831] (-) TimerEvent: {}
+[22.901205] (-) TimerEvent: {}
+[23.001617] (-) TimerEvent: {}
+[23.102000] (-) TimerEvent: {}
+[23.202511] (-) TimerEvent: {}
+[23.302910] (-) TimerEvent: {}
+[23.403301] (-) TimerEvent: {}
+[23.503670] (-) TimerEvent: {}
+[23.604053] (-) TimerEvent: {}
+[23.704438] (-) TimerEvent: {}
+[23.804780] (-) TimerEvent: {}
+[23.905177] (-) TimerEvent: {}
+[24.005675] (-) TimerEvent: {}
+[24.106077] (-) TimerEvent: {}
+[24.206606] (-) TimerEvent: {}
+[24.307016] (-) TimerEvent: {}
+[24.407537] (-) TimerEvent: {}
+[24.507960] (-) TimerEvent: {}
+[24.608499] (-) TimerEvent: {}
+[24.708940] (-) TimerEvent: {}
+[24.809401] (-) TimerEvent: {}
+[24.909819] (-) TimerEvent: {}
+[25.010342] (-) TimerEvent: {}
+[25.110790] (-) TimerEvent: {}
+[25.211311] (-) TimerEvent: {}
+[25.311854] (-) TimerEvent: {}
+[25.412291] (-) TimerEvent: {}
+[25.512799] (-) TimerEvent: {}
+[25.679651] (-) TimerEvent: {}
+[25.699439] (micro_ros_agent) StderrLine: {'line': b'HEAD is now at eb322062 Bump version to 1.9.2\n'}
+[25.741247] (micro_ros_agent) StdoutLine: {'line': b"[ 18%] \x1b[34m\x1b[1mPerforming update step for 'spdlog'\x1b[0m\n"}
+[25.760652] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo patch step for 'spdlog'\x1b[0m\n"}
+[25.779778] (-) TimerEvent: {}
+[25.791625] (micro_ros_agent) StdoutLine: {'line': b"[ 31%] \x1b[34m\x1b[1mPerforming configure step for 'spdlog'\x1b[0m\n"}
+[25.798878] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp/spdlog-cache-.cmake\n'}
+[25.847844] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[25.859347] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[25.879900] (-) TimerEvent: {}
+[25.948690] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[25.955587] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[25.955704] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[25.956045] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[25.956438] (micro_ros_agent) StdoutLine: {'line': b'-- Build spdlog: 1.9.2\n'}
+[25.958218] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[25.980094] (-) TimerEvent: {}
+[26.044983] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[26.045597] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[26.045683] (micro_ros_agent) StdoutLine: {'line': b'-- Build type: Release\n'}
+[26.046079] (micro_ros_agent) StdoutLine: {'line': b'-- Generating example(s)\n'}
+[26.046883] (micro_ros_agent) StdoutLine: {'line': b'-- Generating install\n'}
+[26.053078] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done (0.3s)\n'}
+[26.057565] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[26.058000] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build\n'}
+[26.072855] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mPerforming build step for 'spdlog'\x1b[0m\n"}
+[26.080201] (-) TimerEvent: {}
+[26.106775] (micro_ros_agent) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/spdlog.dir/src/async.cpp.o\x1b[0m\n'}
+[26.107869] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/spdlog.dir/src/spdlog.cpp.o\x1b[0m\n'}
+[26.108062] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/spdlog.dir/src/color_sinks.cpp.o\x1b[0m\n'}
+[26.108148] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o\x1b[0m\n'}
+[26.108285] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/spdlog.dir/src/file_sinks.cpp.o\x1b[0m\n'}
+[26.108437] (micro_ros_agent) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/spdlog.dir/src/cfg.cpp.o\x1b[0m\n'}
+[26.108525] (micro_ros_agent) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/spdlog.dir/src/fmt.cpp.o\x1b[0m\n'}
+[26.180313] (-) TimerEvent: {}
+[26.280606] (-) TimerEvent: {}
+[26.380836] (-) TimerEvent: {}
+[26.481073] (-) TimerEvent: {}
+[26.581364] (-) TimerEvent: {}
+[26.681798] (-) TimerEvent: {}
+[26.785624] (-) TimerEvent: {}
+[26.885957] (-) TimerEvent: {}
+[26.986452] (-) TimerEvent: {}
+[27.086769] (-) TimerEvent: {}
+[27.187165] (-) TimerEvent: {}
+[27.287523] (-) TimerEvent: {}
+[27.388019] (-) TimerEvent: {}
+[27.488397] (-) TimerEvent: {}
+[27.588808] (-) TimerEvent: {}
+[27.689191] (-) TimerEvent: {}
+[27.789473] (-) TimerEvent: {}
+[27.889774] (-) TimerEvent: {}
+[27.990130] (-) TimerEvent: {}
+[28.090386] (-) TimerEvent: {}
+[28.190663] (-) TimerEvent: {}
+[28.291086] (-) TimerEvent: {}
+[28.391366] (-) TimerEvent: {}
+[28.491749] (-) TimerEvent: {}
+[28.593457] (-) TimerEvent: {}
+[28.693804] (-) TimerEvent: {}
+[28.794131] (-) TimerEvent: {}
+[28.894496] (-) TimerEvent: {}
+[28.994864] (-) TimerEvent: {}
+[29.095202] (-) TimerEvent: {}
+[29.195481] (-) TimerEvent: {}
+[29.295741] (-) TimerEvent: {}
+[29.395985] (-) TimerEvent: {}
+[29.496310] (-) TimerEvent: {}
+[29.596671] (-) TimerEvent: {}
+[29.696936] (-) TimerEvent: {}
+[29.797252] (-) TimerEvent: {}
+[29.897526] (-) TimerEvent: {}
+[29.997819] (-) TimerEvent: {}
+[30.098137] (-) TimerEvent: {}
+[30.198470] (-) TimerEvent: {}
+[30.298795] (-) TimerEvent: {}
+[30.399118] (-) TimerEvent: {}
+[30.499453] (-) TimerEvent: {}
+[30.599742] (-) TimerEvent: {}
+[30.700023] (-) TimerEvent: {}
+[30.800318] (-) TimerEvent: {}
+[30.900596] (-) TimerEvent: {}
+[31.000856] (-) TimerEvent: {}
+[31.101101] (-) TimerEvent: {}
+[31.201460] (-) TimerEvent: {}
+[31.301765] (-) TimerEvent: {}
+[31.402078] (-) TimerEvent: {}
+[31.502415] (-) TimerEvent: {}
+[31.602630] (-) TimerEvent: {}
+[31.702957] (-) TimerEvent: {}
+[31.803215] (-) TimerEvent: {}
+[31.903490] (-) TimerEvent: {}
+[32.003820] (-) TimerEvent: {}
+[32.104142] (-) TimerEvent: {}
+[32.204475] (-) TimerEvent: {}
+[32.304794] (-) TimerEvent: {}
+[32.405107] (-) TimerEvent: {}
+[32.505420] (-) TimerEvent: {}
+[32.605639] (-) TimerEvent: {}
+[32.705882] (-) TimerEvent: {}
+[32.806209] (-) TimerEvent: {}
+[32.906527] (-) TimerEvent: {}
+[33.006848] (-) TimerEvent: {}
+[33.107069] (-) TimerEvent: {}
+[33.207418] (-) TimerEvent: {}
+[33.307743] (-) TimerEvent: {}
+[33.408050] (-) TimerEvent: {}
+[33.508285] (-) TimerEvent: {}
+[33.608700] (-) TimerEvent: {}
+[33.709115] (-) TimerEvent: {}
+[33.763975] (micro_ros_agent) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX static library libspdlog.a\x1b[0m\n'}
+[33.809331] (-) TimerEvent: {}
+[33.909842] (-) TimerEvent: {}
+[34.010371] (-) TimerEvent: {}
+[34.110938] (-) TimerEvent: {}
+[34.211481] (-) TimerEvent: {}
+[34.312027] (-) TimerEvent: {}
+[34.412397] (-) TimerEvent: {}
+[34.512791] (-) TimerEvent: {}
+[34.613313] (-) TimerEvent: {}
+[34.713840] (-) TimerEvent: {}
+[34.814337] (-) TimerEvent: {}
+[34.914928] (-) TimerEvent: {}
+[35.015366] (-) TimerEvent: {}
+[35.115889] (-) TimerEvent: {}
+[35.216436] (-) TimerEvent: {}
+[35.324885] (-) TimerEvent: {}
+[35.425433] (-) TimerEvent: {}
+[35.525990] (-) TimerEvent: {}
+[35.626536] (-) TimerEvent: {}
+[35.727105] (-) TimerEvent: {}
+[35.827657] (-) TimerEvent: {}
+[35.928177] (-) TimerEvent: {}
+[36.028727] (-) TimerEvent: {}
+[36.129213] (-) TimerEvent: {}
+[36.229747] (-) TimerEvent: {}
+[36.304414] (micro_ros_agent) StdoutLine: {'line': b'[ 80%] Built target spdlog\n'}
+[36.329869] (-) TimerEvent: {}
+[36.331432] (micro_ros_agent) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object example/CMakeFiles/example.dir/example.cpp.o\x1b[0m\n'}
+[36.430052] (-) TimerEvent: {}
+[36.530387] (-) TimerEvent: {}
+[36.630711] (-) TimerEvent: {}
+[36.730986] (-) TimerEvent: {}
+[36.831318] (-) TimerEvent: {}
+[36.931685] (-) TimerEvent: {}
+[37.031998] (-) TimerEvent: {}
+[37.132318] (-) TimerEvent: {}
+[37.232666] (-) TimerEvent: {}
+[37.332978] (-) TimerEvent: {}
+[37.433306] (-) TimerEvent: {}
+[37.533644] (-) TimerEvent: {}
+[37.633962] (-) TimerEvent: {}
+[37.734284] (-) TimerEvent: {}
+[37.834607] (-) TimerEvent: {}
+[37.934867] (-) TimerEvent: {}
+[38.035185] (-) TimerEvent: {}
+[38.135434] (-) TimerEvent: {}
+[38.235654] (-) TimerEvent: {}
+[38.335965] (-) TimerEvent: {}
+[38.436267] (-) TimerEvent: {}
+[38.536598] (-) TimerEvent: {}
+[38.636837] (-) TimerEvent: {}
+[38.737090] (-) TimerEvent: {}
+[38.837420] (-) TimerEvent: {}
+[38.937742] (-) TimerEvent: {}
+[39.038054] (-) TimerEvent: {}
+[39.138397] (-) TimerEvent: {}
+[39.238719] (-) TimerEvent: {}
+[39.338956] (-) TimerEvent: {}
+[39.370144] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable example\x1b[0m\n'}
+[39.435044] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target example\n'}
+[39.439051] (-) TimerEvent: {}
+[39.457374] (micro_ros_agent) StdoutLine: {'line': b"[ 43%] \x1b[34m\x1b[1mPerforming install step for 'spdlog'\x1b[0m\n"}
+[39.495034] (micro_ros_agent) StdoutLine: {'line': b'[ 80%] Built target spdlog\n'}
+[39.518768] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target example\n'}
+[39.535119] (micro_ros_agent) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[39.539156] (-) TimerEvent: {}
+[39.542258] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[39.542487] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include\n'}
+[39.542564] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog\n'}
+[39.542644] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/logger.h\n'}
+[39.542700] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt\n'}
+[39.542754] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/xchar.h\n'}
+[39.542807] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/ostr.h\n'}
+[39.542859] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bin_to_hex.h\n'}
+[39.542938] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/chrono.h\n'}
+[39.542991] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/compile.h\n'}
+[39.543045] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/fmt.h\n'}
+[39.543098] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter.h\n'}
+[39.543152] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/common.h\n'}
+[39.543212] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async_logger-inl.h\n'}
+[39.543278] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks\n'}
+[39.543387] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ringbuffer_sink.h\n'}
+[39.543445] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink-inl.h\n'}
+[39.543538] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink-inl.h\n'}
+[39.543587] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ostream_sink.h\n'}
+[39.543634] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/systemd_sink.h\n'}
+[39.543681] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink.h\n'}
+[39.543728] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/android_sink.h\n'}
+[39.543775] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink.h\n'}
+[39.543821] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/win_eventlog_sink.h\n'}
+[39.543866] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks.h\n'}
+[39.543938] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks-inl.h\n'}
+[39.543987] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink-inl.h\n'}
+[39.544083] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/dup_filter_sink.h\n'}
+[39.544133] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/syslog_sink.h\n'}
+[39.544181] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks-inl.h\n'}
+[39.544226] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/daily_file_sink.h\n'}
+[39.544275] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/mongo_sink.h\n'}
+[39.544320] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink-inl.h\n'}
+[39.544366] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink.h\n'}
+[39.544435] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/qt_sinks.h\n'}
+[39.544482] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink.h\n'}
+[39.544527] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink.h\n'}
+[39.544590] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks.h\n'}
+[39.544665] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/dist_sink.h\n'}
+[39.544711] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/null_sink.h\n'}
+[39.544757] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/hourly_file_sink.h\n'}
+[39.544816] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/tcp_sink.h\n'}
+[39.544864] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink.h\n'}
+[39.544911] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/msvc_sink.h\n'}
+[39.544958] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink-inl.h\n'}
+[39.545003] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink-inl.h\n'}
+[39.545049] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/spdlog-inl.h\n'}
+[39.545113] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/tweakme.h\n'}
+[39.545160] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/version.h\n'}
+[39.545228] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter-inl.h\n'}
+[39.545293] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/stopwatch.h\n'}
+[39.545359] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details\n'}
+[39.545448] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/fmt_helper.h\n'}
+[39.545499] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer.h\n'}
+[39.545549] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer.h\n'}
+[39.545596] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/windows_include.h\n'}
+[39.545667] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer-inl.h\n'}
+[39.545717] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/synchronous_factory.h\n'}
+[39.545777] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/mpmc_blocking_q.h\n'}
+[39.545824] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/os.h\n'}
+[39.545871] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client.h\n'}
+[39.545918] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/registry-inl.h\n'}
+[39.545966] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/circular_q.h\n'}
+[39.546018] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker.h\n'}
+[39.546069] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool-inl.h\n'}
+[39.546119] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/registry.h\n'}
+[39.546197] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer-inl.h\n'}
+[39.546251] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool.h\n'}
+[39.546302] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper-inl.h\n'}
+[39.546353] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/os-inl.h\n'}
+[39.546419] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker-inl.h\n'}
+[39.546471] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client-windows.h\n'}
+[39.546521] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg-inl.h\n'}
+[39.546571] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg.h\n'}
+[39.546619] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/console_globals.h\n'}
+[39.546690] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper.h\n'}
+[39.546770] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/null_mutex.h\n'}
+[39.546823] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg\n'}
+[39.546873] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers-inl.h\n'}
+[39.546921] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/argv.h\n'}
+[39.546970] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/env.h\n'}
+[39.547017] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers.h\n'}
+[39.547065] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fwd.h\n'}
+[39.547135] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async_logger.h\n'}
+[39.547181] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async.h\n'}
+[39.547229] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/spdlog.h\n'}
+[39.547273] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/common-inl.h\n'}
+[39.547320] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/logger-inl.h\n'}
+[39.547366] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/formatter.h\n'}
+[39.547421] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/libspdlog.a\n'}
+[39.548051] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled/\n'}
+[39.548098] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//printf.h\n'}
+[39.548166] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//color.h\n'}
+[39.548226] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//core.h\n'}
+[39.548301] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ranges.h\n'}
+[39.548360] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//xchar.h\n'}
+[39.548428] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//os.h\n'}
+[39.548491] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//locale.h\n'}
+[39.548549] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format.h\n'}
+[39.548654] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//chrono.h\n'}
+[39.548727] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format-inl.h\n'}
+[39.548827] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//compile.h\n'}
+[39.548892] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ostream.h\n'}
+[39.548946] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//args.h\n'}
+[39.549054] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/pkgconfig/spdlog.pc\n'}
+[39.549176] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets.cmake\n'}
+[39.549261] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets-release.cmake\n'}
+[39.549337] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfig.cmake\n'}
+[39.549419] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigVersion.cmake\n'}
+[39.564292] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mCompleted 'spdlog'\x1b[0m\n"}
+[39.590004] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] Built target spdlog\n'}
+[39.605940] (micro_ros_agent) StdoutLine: {'line': b"[ 56%] \x1b[34m\x1b[1mCreating directories for 'uagent'\x1b[0m\n"}
+[39.635346] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mNo download step for 'uagent'\x1b[0m\n"}
+[39.639264] (-) TimerEvent: {}
+[39.660361] (micro_ros_agent) StdoutLine: {'line': b"[ 68%] \x1b[34m\x1b[1mNo update step for 'uagent'\x1b[0m\n"}
+[39.680424] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mNo patch step for 'uagent'\x1b[0m\n"}
+[39.703421] (micro_ros_agent) StdoutLine: {'line': b"[ 81%] \x1b[34m\x1b[1mPerforming configure step for 'uagent'\x1b[0m\n"}
+[39.710399] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake\n'}
+[39.714632] (micro_ros_agent) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[39.726380] (micro_ros_agent) StdoutLine: {'line': b'-- Found TinyXML2: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[39.739454] (-) TimerEvent: {}
+[39.773417] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[39.775082] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[39.839576] (-) TimerEvent: {}
+[39.864503] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[39.865223] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[39.868234] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done (0.2s)\n'}
+[39.875090] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[39.875609] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/davinci/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[39.890257] (micro_ros_agent) StdoutLine: {'line': b"[ 87%] \x1b[34m\x1b[1mPerforming build step for 'uagent'\x1b[0m\n"}
+[39.927036] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o\x1b[0m\n'}
+[39.927296] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o\x1b[0m\n'}
+[39.927356] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o\x1b[0m\n'}
+[39.927427] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o\x1b[0m\n'}
+[39.927493] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o\x1b[0m\n'}
+[39.927555] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o\x1b[0m\n'}
+[39.927616] (micro_ros_agent) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o\x1b[0m\n'}
+[39.927678] (micro_ros_agent) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o\x1b[0m\n'}
+[39.941442] (-) TimerEvent: {}
+[40.041753] (-) TimerEvent: {}
+[40.142057] (-) TimerEvent: {}
+[40.242396] (-) TimerEvent: {}
+[40.342734] (-) TimerEvent: {}
+[40.443779] (-) TimerEvent: {}
+[40.544140] (-) TimerEvent: {}
+[40.644561] (-) TimerEvent: {}
+[40.745066] (-) TimerEvent: {}
+[40.845589] (-) TimerEvent: {}
+[40.946037] (-) TimerEvent: {}
+[41.046539] (-) TimerEvent: {}
+[41.150467] (-) TimerEvent: {}
+[41.250808] (-) TimerEvent: {}
+[41.351234] (-) TimerEvent: {}
+[41.453495] (-) TimerEvent: {}
+[41.582768] (-) TimerEvent: {}
+[41.683174] (-) TimerEvent: {}
+[41.863956] (-) TimerEvent: {}
+[41.964306] (-) TimerEvent: {}
+[42.064657] (-) TimerEvent: {}
+[42.166010] (micro_ros_agent) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o\x1b[0m\n'}
+[42.166272] (-) TimerEvent: {}
+[42.266555] (-) TimerEvent: {}
+[42.371613] (-) TimerEvent: {}
+[42.406409] (micro_ros_agent) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o\x1b[0m\n'}
+[42.468175] (micro_ros_agent) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o\x1b[0m\n'}
+[42.471737] (-) TimerEvent: {}
+[42.572081] (-) TimerEvent: {}
+[42.672438] (-) TimerEvent: {}
+[42.776646] (-) TimerEvent: {}
+[42.876985] (-) TimerEvent: {}
+[42.977455] (-) TimerEvent: {}
+[43.077962] (-) TimerEvent: {}
+[43.178342] (-) TimerEvent: {}
+[43.279796] (-) TimerEvent: {}
+[43.380095] (-) TimerEvent: {}
+[43.492688] (-) TimerEvent: {}
+[43.592991] (-) TimerEvent: {}
+[43.693259] (-) TimerEvent: {}
+[43.793657] (-) TimerEvent: {}
+[43.894155] (-) TimerEvent: {}
+[43.994580] (-) TimerEvent: {}
+[44.094982] (-) TimerEvent: {}
+[44.195418] (-) TimerEvent: {}
+[44.296020] (-) TimerEvent: {}
+[44.402559] (-) TimerEvent: {}
+[44.503473] (-) TimerEvent: {}
+[44.603869] (-) TimerEvent: {}
+[44.704226] (-) TimerEvent: {}
+[44.804534] (-) TimerEvent: {}
+[44.904797] (-) TimerEvent: {}
+[45.005332] (-) TimerEvent: {}
+[45.122606] (-) TimerEvent: {}
+[45.223045] (-) TimerEvent: {}
+[45.334976] (-) TimerEvent: {}
+[45.436507] (-) TimerEvent: {}
+[45.537198] (-) TimerEvent: {}
+[45.637588] (-) TimerEvent: {}
+[45.741499] (-) TimerEvent: {}
+[45.842011] (-) TimerEvent: {}
+[45.942347] (-) TimerEvent: {}
+[46.137110] (-) TimerEvent: {}
+[46.237467] (-) TimerEvent: {}
+[46.338044] (-) TimerEvent: {}
+[46.440085] (-) TimerEvent: {}
+[46.540419] (-) TimerEvent: {}
+[46.644452] (-) TimerEvent: {}
+[46.744772] (-) TimerEvent: {}
+[46.845096] (-) TimerEvent: {}
+[46.945436] (-) TimerEvent: {}
+[47.015072] (micro_ros_agent) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o\x1b[0m\n'}
+[47.045561] (-) TimerEvent: {}
+[47.145869] (-) TimerEvent: {}
+[47.246198] (-) TimerEvent: {}
+[47.346532] (-) TimerEvent: {}
+[47.449457] (-) TimerEvent: {}
+[47.549795] (-) TimerEvent: {}
+[47.650172] (-) TimerEvent: {}
+[47.750521] (-) TimerEvent: {}
+[47.850882] (-) TimerEvent: {}
+[47.951373] (-) TimerEvent: {}
+[48.051802] (-) TimerEvent: {}
+[48.155734] (-) TimerEvent: {}
+[48.256079] (-) TimerEvent: {}
+[48.356445] (-) TimerEvent: {}
+[48.456809] (-) TimerEvent: {}
+[48.560658] (-) TimerEvent: {}
+[48.661001] (-) TimerEvent: {}
+[48.761326] (-) TimerEvent: {}
+[48.861696] (-) TimerEvent: {}
+[48.962023] (-) TimerEvent: {}
+[49.062347] (-) TimerEvent: {}
+[49.165056] (-) TimerEvent: {}
+[49.265386] (-) TimerEvent: {}
+[49.365696] (-) TimerEvent: {}
+[49.466027] (-) TimerEvent: {}
+[49.566401] (-) TimerEvent: {}
+[49.638540] (micro_ros_agent) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o\x1b[0m\n'}
+[49.666519] (-) TimerEvent: {}
+[49.766873] (-) TimerEvent: {}
+[49.869634] (-) TimerEvent: {}
+[49.969997] (-) TimerEvent: {}
+[50.070348] (-) TimerEvent: {}
+[50.170697] (-) TimerEvent: {}
+[50.271029] (-) TimerEvent: {}
+[50.371391] (-) TimerEvent: {}
+[50.471740] (-) TimerEvent: {}
+[50.572082] (-) TimerEvent: {}
+[50.635450] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o\x1b[0m\n'}
+[50.672203] (-) TimerEvent: {}
+[50.772563] (-) TimerEvent: {}
+[50.875672] (-) TimerEvent: {}
+[50.976031] (-) TimerEvent: {}
+[51.076401] (-) TimerEvent: {}
+[51.176751] (-) TimerEvent: {}
+[51.212522] (micro_ros_agent) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o\x1b[0m\n'}
+[51.278469] (-) TimerEvent: {}
+[51.351141] (micro_ros_agent) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o\x1b[0m\n'}
+[51.378587] (-) TimerEvent: {}
+[51.478907] (-) TimerEvent: {}
+[51.579237] (-) TimerEvent: {}
+[51.679581] (-) TimerEvent: {}
+[51.783465] (-) TimerEvent: {}
+[51.883824] (-) TimerEvent: {}
+[51.987514] (micro_ros_agent) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o\x1b[0m\n'}
+[51.987759] (-) TimerEvent: {}
+[52.088029] (-) TimerEvent: {}
+[52.156055] (micro_ros_agent) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o\x1b[0m\n'}
+[52.188147] (-) TimerEvent: {}
+[52.288475] (-) TimerEvent: {}
+[52.388853] (-) TimerEvent: {}
+[52.489197] (-) TimerEvent: {}
+[52.589537] (-) TimerEvent: {}
+[52.660568] (micro_ros_agent) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o\x1b[0m\n'}
+[52.689658] (-) TimerEvent: {}
+[52.789978] (-) TimerEvent: {}
+[52.799480] (micro_ros_agent) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o\x1b[0m\n'}
+[52.890112] (-) TimerEvent: {}
+[52.990471] (-) TimerEvent: {}
+[53.090847] (-) TimerEvent: {}
+[53.191219] (-) TimerEvent: {}
+[53.296568] (-) TimerEvent: {}
+[53.396930] (-) TimerEvent: {}
+[53.502566] (-) TimerEvent: {}
+[53.602924] (-) TimerEvent: {}
+[53.703275] (-) TimerEvent: {}
+[53.720269] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o\x1b[0m\n'}
+[53.803409] (-) TimerEvent: {}
+[53.903750] (-) TimerEvent: {}
+[54.004086] (-) TimerEvent: {}
+[54.104441] (-) TimerEvent: {}
+[54.208459] (-) TimerEvent: {}
+[54.308796] (-) TimerEvent: {}
+[54.409136] (-) TimerEvent: {}
+[54.509471] (-) TimerEvent: {}
+[54.617559] (-) TimerEvent: {}
+[54.717896] (-) TimerEvent: {}
+[54.818255] (-) TimerEvent: {}
+[54.918614] (-) TimerEvent: {}
+[54.978657] (micro_ros_agent) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o\x1b[0m\n'}
+[54.991555] (micro_ros_agent) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o\x1b[0m\n'}
+[55.018735] (-) TimerEvent: {}
+[55.119081] (-) TimerEvent: {}
+[55.219455] (-) TimerEvent: {}
+[55.266411] (micro_ros_agent) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o\x1b[0m\n'}
+[55.319583] (-) TimerEvent: {}
+[55.419940] (-) TimerEvent: {}
+[55.463022] (micro_ros_agent) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o\x1b[0m\n'}
+[55.520060] (-) TimerEvent: {}
+[55.620415] (-) TimerEvent: {}
+[55.720762] (-) TimerEvent: {}
+[55.821102] (-) TimerEvent: {}
+[55.921463] (-) TimerEvent: {}
+[56.021818] (-) TimerEvent: {}
+[56.122178] (-) TimerEvent: {}
+[56.222551] (-) TimerEvent: {}
+[56.324459] (-) TimerEvent: {}
+[56.424797] (-) TimerEvent: {}
+[56.525155] (-) TimerEvent: {}
+[56.629454] (-) TimerEvent: {}
+[56.669161] (micro_ros_agent) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o\x1b[0m\n'}
+[56.729568] (-) TimerEvent: {}
+[56.829887] (-) TimerEvent: {}
+[56.930243] (-) TimerEvent: {}
+[56.999777] (micro_ros_agent) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o\x1b[0m\n'}
+[57.030366] (-) TimerEvent: {}
+[57.130735] (-) TimerEvent: {}
+[57.231081] (-) TimerEvent: {}
+[57.331438] (-) TimerEvent: {}
+[57.431788] (-) TimerEvent: {}
+[57.532153] (-) TimerEvent: {}
+[57.632531] (-) TimerEvent: {}
+[57.734659] (-) TimerEvent: {}
+[57.834986] (-) TimerEvent: {}
+[57.935348] (-) TimerEvent: {}
+[58.035727] (-) TimerEvent: {}
+[58.136105] (-) TimerEvent: {}
+[58.239644] (-) TimerEvent: {}
+[58.339995] (-) TimerEvent: {}
+[58.440356] (-) TimerEvent: {}
+[58.540716] (-) TimerEvent: {}
+[58.641064] (-) TimerEvent: {}
+[58.741411] (-) TimerEvent: {}
+[58.841765] (-) TimerEvent: {}
+[58.868387] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o\x1b[0m\n'}
+[58.941891] (-) TimerEvent: {}
+[59.042256] (-) TimerEvent: {}
+[59.142622] (-) TimerEvent: {}
+[59.245691] (-) TimerEvent: {}
+[59.346040] (-) TimerEvent: {}
+[59.446418] (-) TimerEvent: {}
+[59.546774] (-) TimerEvent: {}
+[59.647131] (-) TimerEvent: {}
+[59.747463] (-) TimerEvent: {}
+[59.847816] (-) TimerEvent: {}
+[59.951643] (-) TimerEvent: {}
+[60.052019] (-) TimerEvent: {}
+[60.152406] (-) TimerEvent: {}
+[60.252743] (-) TimerEvent: {}
+[60.356600] (-) TimerEvent: {}
+[60.456964] (-) TimerEvent: {}
+[60.482813] (micro_ros_agent) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o\x1b[0m\n'}
+[60.557088] (-) TimerEvent: {}
+[60.657445] (-) TimerEvent: {}
+[60.761459] (-) TimerEvent: {}
+[60.861822] (-) TimerEvent: {}
+[60.962191] (-) TimerEvent: {}
+[60.989160] (micro_ros_agent) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o\x1b[0m\n'}
+[61.062314] (-) TimerEvent: {}
+[61.162650] (-) TimerEvent: {}
+[61.250924] (micro_ros_agent) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o\x1b[0m\n'}
+[61.262772] (-) TimerEvent: {}
+[61.365472] (-) TimerEvent: {}
+[61.465830] (-) TimerEvent: {}
+[61.566166] (-) TimerEvent: {}
+[61.657304] (micro_ros_agent) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o\x1b[0m\n'}
+[61.666291] (-) TimerEvent: {}
+[61.766664] (-) TimerEvent: {}
+[61.867034] (-) TimerEvent: {}
+[61.968930] (-) TimerEvent: {}
+[62.069302] (-) TimerEvent: {}
+[62.174596] (-) TimerEvent: {}
+[62.274966] (-) TimerEvent: {}
+[62.342150] (micro_ros_agent) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o\x1b[0m\n'}
+[62.375084] (-) TimerEvent: {}
+[62.475447] (-) TimerEvent: {}
+[62.575800] (-) TimerEvent: {}
+[62.676145] (-) TimerEvent: {}
+[62.782566] (-) TimerEvent: {}
+[62.882905] (-) TimerEvent: {}
+[62.983255] (-) TimerEvent: {}
+[63.083627] (-) TimerEvent: {}
+[63.183974] (-) TimerEvent: {}
+[63.284306] (-) TimerEvent: {}
+[63.332985] (micro_ros_agent) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o\x1b[0m\n'}
+[63.384445] (-) TimerEvent: {}
+[63.484780] (-) TimerEvent: {}
+[63.585122] (-) TimerEvent: {}
+[63.685464] (-) TimerEvent: {}
+[63.785806] (-) TimerEvent: {}
+[63.886353] (-) TimerEvent: {}
+[63.906141] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o\x1b[0m\n'}
+[63.986465] (-) TimerEvent: {}
+[63.997765] (micro_ros_agent) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o\x1b[0m\n'}
+[64.086586] (-) TimerEvent: {}
+[64.186923] (-) TimerEvent: {}
+[64.287271] (-) TimerEvent: {}
+[64.390458] (-) TimerEvent: {}
+[64.490782] (-) TimerEvent: {}
+[64.591127] (-) TimerEvent: {}
+[64.691473] (-) TimerEvent: {}
+[64.791824] (-) TimerEvent: {}
+[64.892172] (-) TimerEvent: {}
+[64.961553] (micro_ros_agent) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o\x1b[0m\n'}
+[64.992310] (-) TimerEvent: {}
+[65.092686] (-) TimerEvent: {}
+[65.196638] (-) TimerEvent: {}
+[65.296998] (-) TimerEvent: {}
+[65.354656] (micro_ros_agent) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o\x1b[0m\n'}
+[65.397116] (-) TimerEvent: {}
+[65.497465] (-) TimerEvent: {}
+[65.597838] (-) TimerEvent: {}
+[65.698207] (-) TimerEvent: {}
+[65.798572] (-) TimerEvent: {}
+[65.898933] (-) TimerEvent: {}
+[65.999310] (-) TimerEvent: {}
+[66.099669] (-) TimerEvent: {}
+[66.202582] (-) TimerEvent: {}
+[66.224522] (micro_ros_agent) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o\x1b[0m\n'}
+[66.302703] (-) TimerEvent: {}
+[66.406820] (micro_ros_agent) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o\x1b[0m\n'}
+[66.407070] (-) TimerEvent: {}
+[66.507333] (-) TimerEvent: {}
+[66.564959] (micro_ros_agent) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o\x1b[0m\n'}
+[66.607473] (-) TimerEvent: {}
+[66.707836] (-) TimerEvent: {}
+[66.808181] (-) TimerEvent: {}
+[66.908534] (-) TimerEvent: {}
+[67.008874] (-) TimerEvent: {}
+[67.109207] (-) TimerEvent: {}
+[67.211493] (-) TimerEvent: {}
+[67.313623] (-) TimerEvent: {}
+[67.417612] (-) TimerEvent: {}
+[67.517952] (-) TimerEvent: {}
+[67.618279] (-) TimerEvent: {}
+[67.718666] (-) TimerEvent: {}
+[67.819002] (-) TimerEvent: {}
+[67.919337] (-) TimerEvent: {}
+[68.019696] (-) TimerEvent: {}
+[68.120016] (-) TimerEvent: {}
+[68.220345] (-) TimerEvent: {}
+[68.320698] (-) TimerEvent: {}
+[68.421035] (-) TimerEvent: {}
+[68.521373] (-) TimerEvent: {}
+[68.621708] (-) TimerEvent: {}
+[68.722045] (-) TimerEvent: {}
+[68.822387] (-) TimerEvent: {}
+[68.922722] (-) TimerEvent: {}
+[69.023063] (-) TimerEvent: {}
+[69.123411] (-) TimerEvent: {}
+[69.223748] (-) TimerEvent: {}
+[69.324076] (-) TimerEvent: {}
+[69.427561] (-) TimerEvent: {}
+[69.527899] (-) TimerEvent: {}
+[69.628226] (-) TimerEvent: {}
+[69.728561] (-) TimerEvent: {}
+[69.828911] (-) TimerEvent: {}
+[69.929238] (-) TimerEvent: {}
+[70.029578] (-) TimerEvent: {}
+[70.129895] (-) TimerEvent: {}
+[70.230242] (-) TimerEvent: {}
+[70.330590] (-) TimerEvent: {}
+[70.430928] (-) TimerEvent: {}
+[70.531248] (-) TimerEvent: {}
+[70.631589] (-) TimerEvent: {}
+[70.731924] (-) TimerEvent: {}
+[70.832240] (-) TimerEvent: {}
+[70.932578] (-) TimerEvent: {}
+[71.032892] (-) TimerEvent: {}
+[71.133214] (-) TimerEvent: {}
+[71.233539] (-) TimerEvent: {}
+[71.333852] (-) TimerEvent: {}
+[71.434176] (-) TimerEvent: {}
+[71.534517] (-) TimerEvent: {}
+[71.634794] (-) TimerEvent: {}
+[71.735127] (-) TimerEvent: {}
+[71.835453] (-) TimerEvent: {}
+[71.935708] (-) TimerEvent: {}
+[72.036040] (-) TimerEvent: {}
+[72.136265] (-) TimerEvent: {}
+[72.236604] (-) TimerEvent: {}
+[72.336930] (-) TimerEvent: {}
+[72.437261] (-) TimerEvent: {}
+[72.537602] (-) TimerEvent: {}
+[72.637918] (-) TimerEvent: {}
+[72.738168] (-) TimerEvent: {}
+[72.838506] (-) TimerEvent: {}
+[72.938742] (-) TimerEvent: {}
+[73.039054] (-) TimerEvent: {}
+[73.139408] (-) TimerEvent: {}
+[73.239740] (-) TimerEvent: {}
+[73.285295] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmicroxrcedds_agent.so\x1b[0m\n'}
+[73.339938] (-) TimerEvent: {}
+[73.440203] (-) TimerEvent: {}
+[73.518678] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[73.538528] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'uagent'\x1b[0m\n"}
+[73.540283] (-) TimerEvent: {}
+[73.560263] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'uagent'\x1b[0m\n"}
+[73.586130] (micro_ros_agent) StdoutLine: {'line': b'Built target uagent\n'}
+[73.609564] (micro_ros_agent) StdoutLine: {'line': b"[ 43%] \x1b[34m\x1b[1mPerforming install step for 'xrceagent'\x1b[0m\n"}
+[73.640421] (-) TimerEvent: {}
+[73.683367] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[73.697658] (micro_ros_agent) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[73.704480] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[73.704624] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.3\n'}
+[73.706363] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4\n'}
+[73.706515] (micro_ros_agent) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/davinci/micro_ros_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.3" to ""\n'}
+[73.706593] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so\n'}
+[73.706641] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent\n'}
+[73.706701] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware\n'}
+[73.706745] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils\n'}
+[73.706807] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp\n'}
+[73.706874] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds\n'}
+[73.706919] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp\n'}
+[73.706979] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp\n'}
+[73.707045] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast\n'}
+[73.707091] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp\n'}
+[73.707153] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp\n'}
+[73.707215] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp\n'}
+[73.707277] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced\n'}
+[73.707339] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp\n'}
+[73.707421] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp\n'}
+[73.707486] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/utils\n'}
+[73.707549] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp\n'}
+[73.707611] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp\n'}
+[73.707671] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp\n'}
+[73.707738] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp\n'}
+[73.707799] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp\n'}
+[73.707859] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp\n'}
+[73.707921] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp\n'}
+[73.707983] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp\n'}
+[73.708045] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp\n'}
+[73.708105] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/client\n'}
+[73.708165] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/client/session\n'}
+[73.708227] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp\n'}
+[73.708288] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp\n'}
+[73.708348] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream\n'}
+[73.708426] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp\n'}
+[73.708488] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp\n'}
+[73.708547] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp\n'}
+[73.708608] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/datareader\n'}
+[73.708669] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp\n'}
+[73.708730] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/requester\n'}
+[73.708790] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp\n'}
+[73.708847] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/types\n'}
+[73.708912] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp\n'}
+[73.708973] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp\n'}
+[73.709033] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp\n'}
+[73.709089] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp\n'}
+[73.709146] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp\n'}
+[73.709389] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp\n'}
+[73.709462] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/participant\n'}
+[73.709523] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp\n'}
+[73.709586] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/subscriber\n'}
+[73.709642] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp\n'}
+[73.709702] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/publisher\n'}
+[73.709765] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp\n'}
+[73.709826] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp\n'}
+[73.709887] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/logger\n'}
+[73.709948] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp\n'}
+[73.710009] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/processor\n'}
+[73.710070] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp\n'}
+[73.710130] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/replier\n'}
+[73.710191] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp\n'}
+[73.710253] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport\n'}
+[73.710312] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint\n'}
+[73.710374] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp\n'}
+[73.710449] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp\n'}
+[73.710512] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp\n'}
+[73.710576] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp\n'}
+[73.710637] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp\n'}
+[73.710697] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp\n'}
+[73.710756] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/util\n'}
+[73.711122] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp\n'}
+[73.711184] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp\n'}
+[73.711246] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery\n'}
+[73.711309] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp\n'}
+[73.711372] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp\n'}
+[73.711495] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp\n'}
+[73.711579] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial\n'}
+[73.711653] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp\n'}
+[73.711733] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h\n'}
+[73.711780] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp\n'}
+[73.711826] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp\n'}
+[73.711887] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp\n'}
+[73.711951] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp\n'}
+[73.712013] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp\n'}
+[73.712076] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp\n'}
+[73.712138] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp\n'}
+[73.712201] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp\n'}
+[73.712263] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp\n'}
+[73.712325] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp\n'}
+[73.712390] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp\n'}
+[73.712458] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp\n'}
+[73.712516] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp\n'}
+[73.712583] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p\n'}
+[73.712628] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp\n'}
+[73.712688] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp\n'}
+[73.712751] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp\n'}
+[73.712814] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp\n'}
+[73.712875] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp\n'}
+[73.712937] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp\n'}
+[73.713001] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp\n'}
+[73.713063] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp\n'}
+[73.713126] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/can\n'}
+[73.713188] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp\n'}
+[73.713250] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/custom\n'}
+[73.713312] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp\n'}
+[73.713374] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing\n'}
+[73.713445] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp\n'}
+[73.713507] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/p2p\n'}
+[73.713569] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp\n'}
+[73.713632] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp\n'}
+[73.713693] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/object\n'}
+[73.713754] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp\n'}
+[73.713816] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/scheduler\n'}
+[73.713878] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp\n'}
+[73.713939] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp\n'}
+[73.714001] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp\n'}
+[73.714063] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/message\n'}
+[73.714124] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp\n'}
+[73.714186] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp\n'}
+[73.714247] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp\n'}
+[73.714308] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/topic\n'}
+[73.714372] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp\n'}
+[73.714445] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp\n'}
+[73.714550] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/datawriter\n'}
+[73.714614] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp\n'}
+[73.714681] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/reader\n'}
+[73.714728] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp\n'}
+[73.714788] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake\n'}
+[73.714872] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake\n'}
+[73.714949] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/config.hpp\n'}
+[73.715036] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE\n'}
+[73.715117] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake\n'}
+[73.715179] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake\n'}
+[73.715257] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/davinci/micro_ros_ws/install/micro_ros_agent\n'}
+[73.715319] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/davinci/micro_ros_ws/install/micro_ros_agent/include\n'}
+[73.715385] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog\n'}
+[73.715457] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/logger.h\n'}
+[73.715519] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fmt\n'}
+[73.715583] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fmt/xchar.h\n'}
+[73.715645] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fmt/ostr.h\n'}
+[73.715717] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled\n'}
+[73.715766] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/printf.h\n'}
+[73.715828] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/color.h\n'}
+[73.715890] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/core.h\n'}
+[73.715973] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/ranges.h\n'}
+[73.716036] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/xchar.h\n'}
+[73.716097] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/os.h\n'}
+[73.716161] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/locale.h\n'}
+[73.716228] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/format.h\n'}
+[73.716324] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/chrono.h\n'}
+[73.716432] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/format-inl.h\n'}
+[73.716541] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/compile.h\n'}
+[73.716610] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/ostream.h\n'}
+[73.716669] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/args.h\n'}
+[73.716729] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fmt/bin_to_hex.h\n'}
+[73.716787] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fmt/chrono.h\n'}
+[73.716848] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fmt/compile.h\n'}
+[73.716911] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fmt/fmt.h\n'}
+[73.716971] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/pattern_formatter.h\n'}
+[73.717030] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/common.h\n'}
+[73.717092] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/async_logger-inl.h\n'}
+[73.717148] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks\n'}
+[73.717209] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/ringbuffer_sink.h\n'}
+[73.717269] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/rotating_file_sink-inl.h\n'}
+[73.717329] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/base_sink-inl.h\n'}
+[73.717390] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/ostream_sink.h\n'}
+[73.717567] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/systemd_sink.h\n'}
+[73.717669] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/sink.h\n'}
+[73.717732] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/android_sink.h\n'}
+[73.717798] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/rotating_file_sink.h\n'}
+[73.717852] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/win_eventlog_sink.h\n'}
+[73.717897] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_sinks.h\n'}
+[73.717943] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_color_sinks-inl.h\n'}
+[73.718004] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/sink-inl.h\n'}
+[73.718050] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/dup_filter_sink.h\n'}
+[73.718113] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/syslog_sink.h\n'}
+[73.718161] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_sinks-inl.h\n'}
+[73.718207] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/daily_file_sink.h\n'}
+[73.718273] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/mongo_sink.h\n'}
+[73.718327] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/ansicolor_sink-inl.h\n'}
+[73.718373] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/ansicolor_sink.h\n'}
+[73.718425] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/qt_sinks.h\n'}
+[73.718487] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/base_sink.h\n'}
+[73.718533] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/basic_file_sink.h\n'}
+[73.718577] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_color_sinks.h\n'}
+[73.718623] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/dist_sink.h\n'}
+[73.718688] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/null_sink.h\n'}
+[73.718736] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/hourly_file_sink.h\n'}
+[73.718782] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/tcp_sink.h\n'}
+[73.718828] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/wincolor_sink.h\n'}
+[73.718896] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/msvc_sink.h\n'}
+[73.718942] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/wincolor_sink-inl.h\n'}
+[73.718988] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/sinks/basic_file_sink-inl.h\n'}
+[73.719033] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/spdlog-inl.h\n'}
+[73.719078] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/tweakme.h\n'}
+[73.719145] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/version.h\n'}
+[73.719191] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/pattern_formatter-inl.h\n'}
+[73.719238] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/stopwatch.h\n'}
+[73.719285] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details\n'}
+[73.719346] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/fmt_helper.h\n'}
+[73.719400] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/log_msg_buffer.h\n'}
+[73.719449] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/backtracer.h\n'}
+[73.719495] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/windows_include.h\n'}
+[73.719564] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/backtracer-inl.h\n'}
+[73.719612] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/synchronous_factory.h\n'}
+[73.719659] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/mpmc_blocking_q.h\n'}
+[73.719704] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/os.h\n'}
+[73.719750] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/tcp_client.h\n'}
+[73.719797] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/registry-inl.h\n'}
+[73.719869] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/circular_q.h\n'}
+[73.719916] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/periodic_worker.h\n'}
+[73.719961] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/thread_pool-inl.h\n'}
+[73.720007] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/registry.h\n'}
+[73.720053] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/log_msg_buffer-inl.h\n'}
+[73.720099] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/thread_pool.h\n'}
+[73.720167] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/file_helper-inl.h\n'}
+[73.720215] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/os-inl.h\n'}
+[73.720260] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/periodic_worker-inl.h\n'}
+[73.720306] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/tcp_client-windows.h\n'}
+[73.720370] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/log_msg-inl.h\n'}
+[73.720422] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/log_msg.h\n'}
+[73.720470] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/console_globals.h\n'}
+[73.720531] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/file_helper.h\n'}
+[73.720577] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/details/null_mutex.h\n'}
+[73.720623] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/cfg\n'}
+[73.720684] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/cfg/helpers-inl.h\n'}
+[73.720730] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/cfg/argv.h\n'}
+[73.720775] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/cfg/env.h\n'}
+[73.720820] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/cfg/helpers.h\n'}
+[73.720865] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/fwd.h\n'}
+[73.720911] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/async_logger.h\n'}
+[73.720956] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/async.h\n'}
+[73.721013] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/spdlog.h\n'}
+[73.721086] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/common-inl.h\n'}
+[73.721133] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/logger-inl.h\n'}
+[73.721179] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/include/spdlog/formatter.h\n'}
+[73.721224] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/davinci/micro_ros_ws/install/micro_ros_agent/lib\n'}
+[73.721269] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/lib/cmake\n'}
+[73.721316] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/lib/cmake/spdlog\n'}
+[73.721363] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigVersion.cmake\n'}
+[73.721415] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigTargets.cmake\n'}
+[73.721476] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfig.cmake\n'}
+[73.721522] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigTargets-release.cmake\n'}
+[73.721565] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/lib/libspdlog.a\n'}
+[73.721947] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/lib/pkgconfig\n'}
+[73.721992] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/davinci/micro_ros_ws/install/micro_ros_agent/lib/pkgconfig/spdlog.pc\n'}
+[73.736400] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mCompleted 'xrceagent'\x1b[0m\n"}
+[73.740474] (-) TimerEvent: {}
+[73.763187] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] Built target xrceagent\n'}
+[73.779340] (micro_ros_agent) StdoutLine: {'line': b"[ 56%] \x1b[34m\x1b[1mCreating directories for 'micro_ros_agent'\x1b[0m\n"}
+[73.803666] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mNo download step for 'micro_ros_agent'\x1b[0m\n"}
+[73.823994] (micro_ros_agent) StdoutLine: {'line': b"[ 68%] \x1b[34m\x1b[1mNo update step for 'micro_ros_agent'\x1b[0m\n"}
+[73.840597] (-) TimerEvent: {}
+[73.845536] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mNo patch step for 'micro_ros_agent'\x1b[0m\n"}
+[73.868627] (micro_ros_agent) StdoutLine: {'line': b"[ 81%] \x1b[34m\x1b[1mPerforming configure step for 'micro_ros_agent'\x1b[0m\n"}
+[73.876682] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/davinci/micro_ros_ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake\n'}
+[73.888237] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[73.940755] (-) TimerEvent: {}
+[74.001620] (micro_ros_agent) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[74.040920] (-) TimerEvent: {}
+[74.061794] (micro_ros_agent) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[74.141050] (-) TimerEvent: {}
+[74.160301] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[74.164558] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[74.241180] (-) TimerEvent: {}
+[74.253181] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[74.253884] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[74.266270] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_cmake: 4.6.5 (/opt/ros/jazzy/share/rosidl_cmake/cmake)\n'}
+[74.270932] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[74.283607] (micro_ros_agent) StdoutLine: {'line': b'-- Found fastrtps_cmake_module: 3.6.1 (/opt/ros/jazzy/share/fastrtps_cmake_module/cmake)\n'}
+[74.286326] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_dds_common: 3.1.0 (/opt/ros/jazzy/share/rmw_dds_common/cmake)\n'}
+[74.320735] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[74.336901] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[74.341268] (-) TimerEvent: {}
+[74.345920] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[74.368412] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[74.386526] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_shared_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_shared_cpp/cmake)\n'}
+[74.411206] (micro_ros_agent) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[74.413804] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[74.416997] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)\n'}
+[74.420044] (micro_ros_agent) StdoutLine: {'line': b'-- Found micro_ros_msgs: 1.0.0 (/opt/ros/jazzy/share/micro_ros_msgs/cmake)\n'}
+[74.441457] (-) TimerEvent: {}
+[74.499646] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done (0.6s)\n'}
+[74.504957] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[74.506802] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/davinci/micro_ros_ws/build/micro_ros_agent\n'}
+[74.524060] (micro_ros_agent) StdoutLine: {'line': b"[ 87%] \x1b[34m\x1b[1mPerforming build step for 'micro_ros_agent'\x1b[0m\n"}
+[74.541557] (-) TimerEvent: {}
+[74.561027] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o\x1b[0m\n'}
+[74.561244] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o\x1b[0m\n'}
+[74.561328] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o\x1b[0m\n'}
+[74.563264] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o\x1b[0m\n'}
+[74.563464] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o\x1b[0m\n'}
+[74.641669] (-) TimerEvent: {}
+[74.742464] (-) TimerEvent: {}
+[74.842773] (-) TimerEvent: {}
+[74.943085] (-) TimerEvent: {}
+[75.043450] (-) TimerEvent: {}
+[75.143790] (-) TimerEvent: {}
+[75.244134] (-) TimerEvent: {}
+[75.344481] (-) TimerEvent: {}
+[75.444827] (-) TimerEvent: {}
+[75.545153] (-) TimerEvent: {}
+[75.645465] (-) TimerEvent: {}
+[75.745801] (-) TimerEvent: {}
+[75.846136] (-) TimerEvent: {}
+[75.946471] (-) TimerEvent: {}
+[76.046807] (-) TimerEvent: {}
+[76.147141] (-) TimerEvent: {}
+[76.247471] (-) TimerEvent: {}
+[76.347802] (-) TimerEvent: {}
+[76.448129] (-) TimerEvent: {}
+[76.548478] (-) TimerEvent: {}
+[76.648812] (-) TimerEvent: {}
+[76.749144] (-) TimerEvent: {}
+[76.849477] (-) TimerEvent: {}
+[76.949790] (-) TimerEvent: {}
+[77.050118] (-) TimerEvent: {}
+[77.150459] (-) TimerEvent: {}
+[77.250798] (-) TimerEvent: {}
+[77.351138] (-) TimerEvent: {}
+[77.451456] (-) TimerEvent: {}
+[77.551766] (-) TimerEvent: {}
+[77.652056] (-) TimerEvent: {}
+[77.752350] (-) TimerEvent: {}
+[77.844392] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable micro_ros_agent\x1b[0m\n'}
+[77.852456] (-) TimerEvent: {}
+[77.952695] (-) TimerEvent: {}
+[78.053071] (-) TimerEvent: {}
+[78.131217] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[78.153211] (-) TimerEvent: {}
+[78.153530] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'micro_ros_agent'\x1b[0m\n"}
+[78.181111] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'micro_ros_agent'\x1b[0m\n"}
+[78.206171] (micro_ros_agent) StdoutLine: {'line': b'Built target micro_ros_agent\n'}
+[78.214793] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[78.215276] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[78.222140] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/davinci/micro_ros_ws/build/micro_ros_agent'], 'cwd': '/home/davinci/micro_ros_ws/build/micro_ros_agent', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'davinci', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/davinci', 'OLDPWD': '/home/davinci/micro_ros_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2274', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/davinci/ros3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'davinci', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'davinci', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/davinci/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/davinci:@/tmp/.ICE-unix/2240,unix/davinci:/tmp/.ICE-unix/2240', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ad0ff6c4_8525_44d2_b1e1_8d6cec2e1543', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C92762', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/davinci/ros3_ws/install/ydlidar_ros2_driver:/home/davinci/ros3_ws/install/my_py_pkg:/home/davinci/ros3_ws/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/davinci/micro_ros_ws/build/micro_ros_agent', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/davinci/ros3_ws/build/my_py_pkg:/home/davinci/ros3_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/davinci/ros3_ws/install/ydlidar_ros2_driver:/home/davinci/ros3_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[78.228387] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[78.228731] (micro_ros_agent) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[78.228915] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[78.236296] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[78.243036] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[78.249662] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[78.253304] (-) TimerEvent: {}
+[78.257193] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[78.265246] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[78.272517] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[78.279370] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[78.286038] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[78.293335] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[78.300958] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[78.308399] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[78.316010] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[78.323139] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[78.329865] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[78.336856] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[78.344047] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/davinci/micro_ros_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[78.350630] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/davinci/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[78.353491] (-) TimerEvent: {}
+[78.359786] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[78.375421] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[78.376026] (-) EventReactorShutdown: {}
