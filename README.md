@@ -43,7 +43,7 @@ Please select the lidar baudrate:4
 Whether the Lidar is one-way communication[yes/no]:no
 Please enter the lidar scan frequency[5-12]:10
 ```
-If the above showa up in the terminal then your sdk installation is successful please proceed to the next step
+If the above shows up in the terminal then your sdk installation is successful please proceed to the next step
 ### 2)Running ydlidar_ros2_driver
 ```bash
 cd ydlidar
@@ -55,6 +55,32 @@ ros2 launch ydlidar_ros2_driver ydlidar_launch_view.py
 #### This should show up something like below on the screen
 ![LiDAR Scan](images/rviz_lidar.png)
 If the above shows up proceed to the next step
+## Uploading .ino codes to the esp32 or preferred microcontroller.Kindly note I am using
+### 1st option:-Serial odom codes(preffered)
+#### i)Upload Serial_ESP32.ino into your microcontroller by using Arduino IDE
+#### ii)After this create a new folder with the following command
+```bash
+mkdir navigation_ws
+cd navigation_ws
+```
+#### iii)Copy paste the src folder in this repo into this navigation_ws
+```bash
+colcon build
+source install/setup.bash
+ros2 run serial_odom serial_odom_node
+```
+#### iv) Open another terminal and run the following command
+```bash
+ros2 node list
+```
+This should give a output showing "serial odom node" just after running the above command.If this is the case proceed to the next step
+### 2nd option:-Microros codes(Not preffered unreliable with timing issues causing slam map generation to fail sometimes)
+#### i)Upload micro_ros.ino into your microcontroller by using Arduino IDE
+#### ii)Open another terminal and run the following command
+```bash
+ros2 topic list
+```
+This should give a output showing topics showing "/odom, /tf, /joint_states" just after running the above command.If this is the case proceed to the next step
 ## Setting up and running slam map generation on the robot
 ### Open another terminal and run the below commands
 #### Kindly install slam_toolbox with below commands
@@ -72,6 +98,23 @@ If this does not popup please reach out to me and share the pdf generated from r
 ```bash
 ros2 run tf2_tools view_frames
 ```
+## Running Autonomous Navigation and Dynamic Obstacle avoidance
+```bash
+ros2 launch nav2_bringup navigation_launch.py
+```
+### Open another terminal
+```bash
+ros2 launch nav2_bringup localization_launch.py
+```
+### In some cases in both the above commands you may need to provide the nav2_params files in order for nav2 to run smoothly you can do so by adding the following statement at the end of the above two statements
+params_file:=path to your params file/nav2_params.yaml
+```bash
+ros2 launch nav2_bringup navigation_launch.py params_file:=/home/rpi-1/nav2_params.yaml
+ros2 launch nav2_bringup localization_launch.py params_file:=/home/rpi-1/nav2_params.yaml
+```
+The above to is the location to my params file replace them with the correct location of your params file or it will fail
+### On succesfully completing this a costmap as show below should launch on rviz.You can have to give current orientation of the robot and then give a target goal.Hence you have successfully completed autonomous navigation with dynamic obstacle avoidance on your robot
+![Nav2_costmap](images/Nav2_costmap.png)
 
 
 
