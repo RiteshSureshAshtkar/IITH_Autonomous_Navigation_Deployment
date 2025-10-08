@@ -113,7 +113,7 @@ ros2 launch nav2_bringup navigation_launch.py params_file:=/home/rpi-1/nav2_para
 ros2 launch nav2_bringup localization_launch.py params_file:=/home/rpi-1/nav2_params.yaml
 ```
 The above to is the location to my params file replace them with the correct location of your params file or it will fail
-### On succesfully completing this a costmap as show below should launch on rviz.You can have to give current orientation of the robot and then give a target goal.Hence you have successfully completed autonomous navigation with dynamic obstacle avoidance on your robot
+### On succesfully completing this a costmap as show below should launch on rviz.You first have to give current orientation of the robot and then give a target goal.Hence you have successfully completed autonomous navigation with dynamic obstacle avoidance on your robot
 ![Nav2_costmap](images/Nav2_costmap.png)
 
 
