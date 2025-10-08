@@ -60,8 +60,8 @@ If the above shows up proceed to the next step
 #### i)Upload Serial_ESP32.ino into your microcontroller by using Arduino IDE
 #### ii)After this create a new folder with the following command
 ```bash
-mkdir navigation_ws
-cd navigation_ws
+mkdir ros4_ws
+cd ros4_ws
 ```
 #### iii)Copy paste the src folder in this repo into this navigation_ws
 ```bash
