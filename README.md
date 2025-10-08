@@ -124,20 +124,22 @@ The above to is the location to my params file replace them with the correct loc
 ### On succesfully completing this a costmap as show below should launch on rviz.You first have to give current orientation of the robot and then give a target goal.Hence you have successfully completed autonomous navigation with dynamic obstacle avoidance on your robot
 ![Nav2_costmap](images/Nav2_costmap.png)
 
-## Components which I have used for this deployment.IT IS SUGGESTED TO USE THESE M
-COMPONENTS IN ORDER TO AVOID CHANGING CODES.You can use the components of your choice but you might have to change the codes according to the documentation of the component you are using
+## Components which I have used for this deployment.IT IS SUGGESTED TO USE THESE COMPONENTS IN ORDER TO AVOID CHANGING CODES.You can use the components of your choice but you might have to change the codes according to the documentation of the component you are using
 
-### Motor driver and microcontroller- 
+### 1)Motor driver and microcontroller- 
 [ESP32-DDSM-HAT(A)](https://share.google/hMuRbfeifcURvRxAu "Go to Robu's website")
 
-### Motors- [DDSM115 motors](https://share.google/Tp8noClxG1HbJcHNx "Go to thinkrobotics's website")
+### 2)Motors- [DDSM210 motors](https://share.google/awLRIn2imcRBCDsaA "Go to waveshare's website"
+
+[DDSM115 motors](https://share.google/Tp8noClxG1HbJcHNx "Go to thinkrobotics's website")
+If using ddsm115 motors change all lines which match   dc.set_ddsm_type(210); to   dc.set_ddsm_type(115);
 
 ### Onboard computer-Raspberry PI 5(The code is backwards compatible with RPI 4 but suggested to use RPI-5 as RPI-4 runs slam and nav2 with lot of lag)
 [Raspberry PI 5 8 GB](https://share.google/5uzgzHYJZoESEkoFh "Go to Robu's website")
 
-### Inertial Measurement Unit(IMU)- MPU-605](Yaw angles are not accurate with 6 axis IMU go for 9 axis if you could but change of code will be required according to the 9 axis IMU's documentation)
+### Inertial Measurement Unit(IMU)- MPU-9250(Code is compatible with MPU9250,MPU9050,MPU6050 no changes in code required-Highly suggested to use MPU9250 for better yaw angles)
+[MPU-9250]( https://share.google/jDUb9RRg1wQ4ZrZ9p "Go to RoboticsDNA's website for 9 axis IMU")
 [MPU-6050](https://share.google/mzZ7ta6OTKHx6q5Y0 "Go to Robu's website for 6 axis IMU")
-[MPU-9250](https://share.google/5BgRZBAwiIUbgpRs0 "Go to Robu's website for 9 axis IMU")
 
 
 
