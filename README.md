@@ -129,7 +129,7 @@ The above to is the location to my params file replace them with the correct loc
 ### 1) Motor driver and microcontroller- 
 [ESP32-DDSM-HAT(A)](https://share.google/hMuRbfeifcURvRxAu "Go to Robu's website")
 
-### 2) Motors- [DDSM210 motors](https://share.google/awLRIn2imcRBCDsaA "Go to waveshare's website")[DDSM115 motors](https://share.google/Tp8noClxG1HbJcHNx "Go to thinkrobotics's website")
+### 2) Motors- [DDSM210 motors](https://share.google/awLRIn2imcRBCDsaA "Go to waveshare's website") [DDSM115 motors](https://share.google/Tp8noClxG1HbJcHNx "Go to thinkrobotics's website")
 
 If using ddsm115 motors change all lines which match   dc.set_ddsm_type(210); to   dc.set_ddsm_type(115);
 
