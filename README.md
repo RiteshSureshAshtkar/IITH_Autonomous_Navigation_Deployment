@@ -55,7 +55,7 @@ ros2 launch ydlidar_ros2_driver ydlidar_launch_view.py
 #### This should show up something like below on the screen
 ![LiDAR Scan](images/rviz_lidar.png)
 If the above shows up proceed to the next step
-## Uploading .ino codes to the esp32 or preferred microcontroller.Kindly note I am using
+## Uploading .ino codes to the esp32 or preferred microcontroller.Kindly note I am using esp32 ddsm hat(A) if you are using other microcontroller you have to make changes to the below codes
 ### 1st option:-Serial odom codes(preffered)
 #### i)Upload Serial_ESP32.ino into your microcontroller by using Arduino IDE
 #### ii)After this create a new folder with the following command
