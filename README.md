@@ -63,13 +63,21 @@ If the above shows up proceed to the next step
 mkdir ros4_ws
 cd ros4_ws
 ```
-#### iii)Copy paste the src folder in this repo into this navigation_ws
+#### iii)Copy paste the src folder in this repo into this ros4_ws
 ```bash
 colcon build
 source install/setup.bash
+```
+#### iv)There are two configurations in which you can run the serial odom node continue below commands in same terminal
+##### 1)With IMU(MPU-6050).If you are using other imu kindly refer to documentation of the imu you are using and change the code accordingly
+```bash
+ros2 run serial_odom serial_odom_node_with_imu
+```
+##### 1)Without IMU(MPU-6050).If you do not have access to IMU use this option.BEWARE RUNNING WITHOUT IMU CAUSES DRIFTING OF ODOM AND LOCALIZATION OF ROBOT IS NOT ACCURATE CAUSING INACCURACIES IN MAPPING AND AUTONMOUS NAVIGATION
+```bash
 ros2 run serial_odom serial_odom_node
 ```
-#### iv) Open another terminal and run the following command
+#### v) Open another terminal and run the following command
 ```bash
 ros2 node list
 ```
