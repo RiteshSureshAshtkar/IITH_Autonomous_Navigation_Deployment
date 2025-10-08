@@ -132,6 +132,7 @@ The above to is the location to my params file replace them with the correct loc
 ### 2) Motors- [DDSM210 motors](https://share.google/awLRIn2imcRBCDsaA "Go to waveshare's website")
 
 [DDSM115 motors](https://share.google/Tp8noClxG1HbJcHNx "Go to thinkrobotics's website")
+
 If using ddsm115 motors change all lines which match   dc.set_ddsm_type(210); to   dc.set_ddsm_type(115);
 
 ### 3) Onboard computer-Raspberry PI 5(The code is backwards compatible with RPI 4 but suggested to use RPI-5 as RPI-4 runs slam and nav2 with lot of lag)
@@ -139,6 +140,7 @@ If using ddsm115 motors change all lines which match   dc.set_ddsm_type(210); to
 
 ### 4) Inertial Measurement Unit(IMU)- MPU-9250(Code is compatible with MPU9250,MPU9050,MPU6050 no changes in code required-Highly suggested to use MPU9250 for better yaw angles)
 [MPU-9250]( https://share.google/jDUb9RRg1wQ4ZrZ9p "Go to RoboticsDNA's website for 9 axis IMU")
+
 [MPU-6050](https://share.google/mzZ7ta6OTKHx6q5Y0 "Go to Robu's website for 6 axis IMU")
 
 
