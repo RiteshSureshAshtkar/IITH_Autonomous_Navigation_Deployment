@@ -143,7 +143,7 @@ dc.set_ddsm_type(210); to   dc.set_ddsm_type(115);
 
 6 axis IMU- [MPU-6050](https://share.google/mzZ7ta6OTKHx6q5Y0 "Go to Robu's website for 6 axis IMU")
 
-
+Thank for going through this documentation kindly fork this repo and contribute by sending pull requests to it.
 
 
 
