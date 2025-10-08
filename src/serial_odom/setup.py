@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'serial_odom_node = serial_odom.serial_odom_node:main',
+            'serial_odom_node_with_imu = serial_odom.serial_odom_node_with_imu:main',
         ],
     },
 )
