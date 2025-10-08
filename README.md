@@ -73,7 +73,7 @@ source install/setup.bash
 ```bash
 ros2 run serial_odom serial_odom_node_with_imu
 ```
-##### 1)Without IMU(MPU-6050).If you do not have access to IMU use this option.BEWARE RUNNING WITHOUT IMU CAUSES DRIFTING OF ODOM AND LOCALIZATION OF ROBOT IS NOT ACCURATE CAUSING INACCURACIES IN MAPPING AND AUTONMOUS NAVIGATION
+##### 1)Without IMU(MPU-6050).If you do not have access to IMU use this option.BEWARE RUNNING WITHOUT IMU CAUSES DRIFTING OF ODOM AND LOCALIZATION OF ROBOT IS NOT ACCURATE CAUSING INACCURACIES IN MAPPING AND AUTONOMOUS NAVIGATION
 ```bash
 ros2 run serial_odom serial_odom_node
 ```
@@ -123,6 +123,23 @@ ros2 launch nav2_bringup localization_launch.py params_file:=/home/rpi-1/nav2_pa
 The above to is the location to my params file replace them with the correct location of your params file or it will fail
 ### On succesfully completing this a costmap as show below should launch on rviz.You first have to give current orientation of the robot and then give a target goal.Hence you have successfully completed autonomous navigation with dynamic obstacle avoidance on your robot
 ![Nav2_costmap](images/Nav2_costmap.png)
+
+## Components which I have used for this deployment.IT IS SUGGESTED TO USE THESE M
+COMPONENTS IN ORDER TO AVOID CHANGING CODES.You can use the components of your choice but you might have to change the codes according to the documentation of the component you are using
+
+### Motor driver and microcontroller- 
+[ESP32-DDSM-HAT(A)](https://share.google/hMuRbfeifcURvRxAu "Go to Robu's website")
+
+### Motors- [DDSM115 motors](https://share.google/Tp8noClxG1HbJcHNx "Go to thinkrobotics's website")
+
+### Onboard computer-Raspberry PI 5(The code is backwards compatible with RPI 4 but suggested to use RPI-5 as RPI-4 runs slam and nav2 with lot of lag)
+[Raspberry PI 5 8 GB](https://share.google/5uzgzHYJZoESEkoFh "Go to Robu's website")
+
+### Inertial Measurement Unit(IMU)- MPU-605](Yaw angles are not accurate with 6 axis IMU go for 9 axis if you could but change of code will be required according to the 9 axis IMU's documentation)
+[MPU-6050](https://share.google/mzZ7ta6OTKHx6q5Y0 "Go to Robu's website for 6 axis IMU")
+[MPU-9250](https://share.google/5BgRZBAwiIUbgpRs0 "Go to Robu's website for 9 axis IMU")
+
+
 
 
 
