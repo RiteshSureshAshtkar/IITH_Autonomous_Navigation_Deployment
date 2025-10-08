@@ -129,9 +129,7 @@ The above to is the location to my params file replace them with the correct loc
 ### 1) Motor driver and microcontroller- 
 [ESP32-DDSM-HAT(A)](https://share.google/hMuRbfeifcURvRxAu "Go to Robu's website")
 
-### 2) Motors- [DDSM210 motors](https://share.google/awLRIn2imcRBCDsaA "Go to waveshare's website")
-
-[DDSM115 motors](https://share.google/Tp8noClxG1HbJcHNx "Go to thinkrobotics's website")
+### 2) Motors- [DDSM210 motors](https://share.google/awLRIn2imcRBCDsaA "Go to waveshare's website")[DDSM115 motors](https://share.google/Tp8noClxG1HbJcHNx "Go to thinkrobotics's website")
 
 If using ddsm115 motors change all lines which match   dc.set_ddsm_type(210); to   dc.set_ddsm_type(115);
 
@@ -139,9 +137,9 @@ If using ddsm115 motors change all lines which match   dc.set_ddsm_type(210); to
 [Raspberry PI 5 8 GB](https://share.google/5uzgzHYJZoESEkoFh "Go to Robu's website")
 
 ### 4) Inertial Measurement Unit(IMU)- MPU-9250(Code is compatible with MPU9250,MPU9050,MPU6050 no changes in code required-Highly suggested to use MPU9250 for better yaw angles)
-[MPU-9250]( https://share.google/jDUb9RRg1wQ4ZrZ9p "Go to RoboticsDNA's website for 9 axis IMU")
+9 axis IMU- [MPU-9250]( https://share.google/jDUb9RRg1wQ4ZrZ9p "Go to RoboticsDNA's website for 9 axis IMU")
 
-[MPU-6050](https://share.google/mzZ7ta6OTKHx6q5Y0 "Go to Robu's website for 6 axis IMU")
+6 axis IMU- [MPU-6050](https://share.google/mzZ7ta6OTKHx6q5Y0 "Go to Robu's website for 6 axis IMU")
 
 
 
