@@ -131,7 +131,8 @@ The above to is the location to my params file replace them with the correct loc
 
 ### 2) Motors- [DDSM210 motors](https://share.google/awLRIn2imcRBCDsaA "Go to waveshare's website") [DDSM115 motors](https://share.google/Tp8noClxG1HbJcHNx "Go to thinkrobotics's website")
 
-If using ddsm115 motors change all lines which match   dc.set_ddsm_type(210); to   dc.set_ddsm_type(115);
+If using ddsm115 motors change all lines which match
+dc.set_ddsm_type(210); to   dc.set_ddsm_type(115);
 
 ### 3) Onboard computer-Raspberry PI 5(The code is backwards compatible with RPI 4 but suggested to use RPI-5 as RPI-4 runs slam and nav2 with lot of lag)
 [Raspberry PI 5 8 GB](https://share.google/5uzgzHYJZoESEkoFh "Go to Robu's website")
