@@ -14,8 +14,9 @@ sudo make install
 #### ii)Installing and building:
 ```bash
 sudo apt install -y build-essential cmake python3-dev python3-pip swig libusb-1.0-0-dev
-python setup.py build
 sudo apt install -y python3-venv
+cd ..
+python3 setup.py build
 ```
 #### iii)Creating an environment and activating it
 ```bash
@@ -37,8 +38,6 @@ sudo chown -R $USER:$USER .
 cd build
 rm -f install_manifest.txt
 cpack
-
-python setup.py install
 ``` 
 #### vi)Test
 ```bash
@@ -60,18 +59,17 @@ Baudrate:
 2. 153600
 3. 230400
 4. 512000
-Please select the lidar baudrate:4
-Whether the Lidar is one-way communication[yes/no]:no
-Please enter the lidar scan frequency[5-12]:10
+Please select the lidar baudrate:
 ```
-If the above shows up in the terminal then your sdk installation is successful please proceed to the next step
+If the above shows up in the terminal then your sdk installation is successful please hit ctrl+c and proceed to the next step
 
 #### vii)Adding permissions
+BEWARE running below code will reboot your device save any unsaved work
 ```bash
 sudo usermod -aG dialout $USER
 sudo reboot
 ```
-BEWARE running below code will reboot your device save any unsaved work
+Now connect your ydlidar to usb port of your device and continue to the next step of process
 ### 2)Running ydlidar_ros2_driver
 ```bash
 cd ydlidar
