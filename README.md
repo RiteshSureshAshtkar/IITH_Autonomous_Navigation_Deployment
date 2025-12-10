@@ -71,9 +71,12 @@ sudo reboot
 ```
 Now connect your ydlidar to usb port of your device and continue to the next step of process
 ### 2)Running ydlidar_ros2_driver
+Below will clone my repo onto your computer
 ```bash
-cd ydlidar
-rm -rf ~/.build ~/.log ~/.install
+cd
+git clone https://github.com/RiteshSureshAshtkar/IITH_Autonomous_Navigation_Deployment.git
+cd IITH_Autonomous_Navigation_Deployment/ydlidar/
+rm -rf build install log
 colcon build
 source install/setup.bash
 ros2 launch ydlidar_ros2_driver ydlidar_launch_view.py
