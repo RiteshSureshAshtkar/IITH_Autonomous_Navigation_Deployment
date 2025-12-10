@@ -11,18 +11,38 @@ cmake ..
 make
 sudo make install
 ```
-#### ii)Python API install separtately:
+#### ii)Installing:
 ```bash
-cd YDLidar-SDK
-pip install .
-
-# Another method
-python setup.py build
-python setup.py install
+sudo apt install -y build-essential cmake python3-dev python3-pip swig libusb-1.0-0-dev
+sudo apt install -y python3-venv
 ```
-#### iii)Additional steps and test
+#### iii)Creating an environment and activating
 ```bash
+cd ~/YDLidar-SDK
+python3 -m venv .venv
+source .venv/bin/activate
+```
+#### iv)Additional steps
+```bash
+pip install --upgrade pip setuptools wheel
+pip install .
+deactivate
+```
+#### v)Building and cpacking
+```bash
+cd
+cd ~/YDLidar-SDK
+sudo chown -R $USER:$USER .
+cd build
+rm -f install_manifest.txt
 cpack
+
+python setup.py install
+``` 
+#### vi)Test
+```bash
+cd ~/YDLidar-SDK/build
+chmod +x tri_test
 ./tri_test
 ```
 It should show something like this in the the terminal
@@ -44,6 +64,13 @@ Whether the Lidar is one-way communication[yes/no]:no
 Please enter the lidar scan frequency[5-12]:10
 ```
 If the above shows up in the terminal then your sdk installation is successful please proceed to the next step
+
+#### vii)Adding permissions
+```bash
+sudo usermod -aG dialout $USER
+sudo reboot
+```
+BEWARE running below code will reboot your device save any unsaved work
 ### 2)Running ydlidar_ros2_driver
 ```bash
 cd ydlidar
