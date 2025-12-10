@@ -11,12 +11,13 @@ cmake ..
 make
 sudo make install
 ```
-#### ii)Installing:
+#### ii)Installing and building:
 ```bash
 sudo apt install -y build-essential cmake python3-dev python3-pip swig libusb-1.0-0-dev
+python setup.py build
 sudo apt install -y python3-venv
 ```
-#### iii)Creating an environment and activating
+#### iii)Creating an environment and activating it
 ```bash
 cd ~/YDLidar-SDK
 python3 -m venv .venv
